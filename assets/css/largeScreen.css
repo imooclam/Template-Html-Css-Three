@@ -1,0 +1,207 @@
+
+
+@media (min-width:768px) {
+    
+    .main--heading p{
+       width: clamp(400px ,450px, 500px);
+       font-size: 1.3rem;
+       color: #777;
+    }
+
+    .porto .all-li{
+        font-size: 1.5rem;
+       padding: 1rem .1rem;
+    }
+    .row .btn{
+        font-size: 2rem;
+    }
+    .text h2{
+        position: relative;
+        font-size: 3.2rem;
+        
+    }
+    .text p{
+        position: relative;
+        font-size: 2.2rem;
+    }
+    .text .btn{
+        font-size: 2.2rem;
+
+    }
+    .overlay{
+        /* z-index: -1; */
+        height: calc(100% - 90px);
+    }
+    .video .text {
+        
+        z-index: 1;
+    }
+    .box {
+        grid-template-columns: repeat(4,1fr);
+        font-size: 3rem;
+     
+    }
+    .status {
+       max-height:auto;
+      
+    }
+    .boxx .letter{
+        font-size: 1.4rem;
+    }
+    .boxx i{
+        font-size: 2.4rem;
+        padding:1rem;   
+    }
+    .testPerson img {
+     
+        width: 80px;
+}
+.testPerson figcaption {
+    
+    font-size: 1.5rem;
+}
+
+small {
+    font-size: 100%;
+}
+
+.testimonials .bullet li {
+   
+    width: 2.5rem;
+    height: 2.5rem;
+  
+}
+
+.bg-quote q {
+    font-size: 2.3rem;
+  
+}
+.john{
+    font-size: 1.4rem;
+    color: gold;
+}
+
+
+
+
+.plans{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+   }
+
+
+
+
+   .sec-pric {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+
+.pricing h4 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.pricing button .ss {
+    
+    font-size: 2.5rem;
+    color: white;
+ 
+}
+.pricing button .ss:hover {
+    
+
+    color: rgb(0, 0, 0);
+ 
+}
+
+.sub {
+   text-align: center;
+    height: 400px;
+}
+.sub .container {
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+}
+.sub p {
+    padding: 30px ;
+    text-align: center;
+    font-size: 2rem;
+}
+.sub form{
+    width: 700px;
+   max-width: 100%;
+}
+.sub form  i{
+  font-size: 2em;
+
+
+}
+.sub form  input{
+  font-size: 2em;
+  
+  
+
+}
+
+form input[type="submit"]{
+    width: 140px;
+
+}
+
+
+.cont-address{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.testPerson figcaption::after{
+    content: "";
+    border-bottom:1px solid var(--PARGRAPH--MAIN--COLOR);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: -70px;
+    left: -5px;
+    margin-bottom: 10px;
+    text-align: center;
+ }
+
+.links-add{
+    margin-left : 2em
+}
+.links-add p,
+.links-add a,
+.links-add address
+{
+    font-size: 2rem;
+}
+
+
+
+.main--heading h2 {
+    font-size: 4.5rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
